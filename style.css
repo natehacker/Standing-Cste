@@ -1,0 +1,21 @@
+body{
+    background-color: #fff;
+}
+.img1{
+text-align: center;
+size: 60px;
+}
+.container{
+    text-align: center;
+}
+.container-two{
+  
+}
+.box-one{
+    background-color: #fff;
+    width: 250px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    right: 40px;
+}

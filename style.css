@@ -1,5 +1,16 @@
+*{
+    font-family: sans-serif;
+}
+
 body{
     background-color: #fff;
+}
+h1{
+    
+    color: #003479;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 500;
 }
 .img1{
     text-align: center;
@@ -29,10 +40,26 @@ body{
 .flex-container {
     display: flex;
     justify-content: center;
-    background-color:#f1f1f1;
-    
-   
+    /* background-color:#f1f1f1; */
+
   }
+.myDiv{
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;  
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+ 
+
+
+
   
   .flex-container > div {
     background-color: #ffffff;
@@ -45,8 +72,9 @@ body{
   .last_img{
    text-align: center;
   }
-  h1{
+  h2{
     font-family: sans-serif;
     font-size: medium;
   }
+ 
 

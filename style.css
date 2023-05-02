@@ -29,7 +29,6 @@ h1{
     width: 250px;
     align-items: center;
    
-
 }
 .paragraph_two{
     text-align: center;
@@ -41,7 +40,7 @@ h1{
     height:200px;
     margin:110px auto;
     margin-top: 30px;
-   
+    
 }
 .container_two .box{
     position: relative;
@@ -52,8 +51,9 @@ h1{
     margin:15px;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0px;
     border: 2px solid black;
+    
     
 }
 
@@ -93,6 +93,8 @@ h1{
   }
   .last_img{
    text-align: center;
+  max-width: min-content; width: 30px;
+   margin-left: 70px;
   }
   h2{
     font-family: sans-serif;

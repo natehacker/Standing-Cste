@@ -2,16 +2,18 @@ body{
     background-color: #fff;
 }
 .img1{
-text-align: center;
-size: 60px;
-}
-.container{
     text-align: center;
 }
-.container-two{
-  
+
+.container{
+    text-align: center;
+
 }
-.box-one{
+.paragraph_two{
+    text-align: center;
+   color: #1d1c1c;
+}
+/* .box-one{
     background-color: #fff;
     width: 250px;
     border: 3px solid rgb(0, 0, 0);
@@ -19,3 +21,32 @@ size: 60px;
     margin: 20px;
     right: 40px;
 }
+.box-two{
+    display: flex;
+    justify-content:;
+} */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color:#f1f1f1;
+    
+   
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    margin: 60px;
+    padding: 20px;
+    font-size: 30px;
+    border: 3px solid black;
+   
+  }
+  .last_img{
+   text-align: center;
+  }
+  h1{
+    font-family: sans-serif;
+    font-size: medium;
+  }
+

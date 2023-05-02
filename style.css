@@ -19,6 +19,7 @@ h1{
     text-align: center;
 }
 
+
 .container{
     text-align: center;
 
@@ -37,17 +38,23 @@ h1{
 .container_two{
     position: relative;
     width: 1200px;
-    height:300px;
+    height:200px;
     margin:110px auto;
-    
+    margin-top: 30px;
+   
 }
 .container_two .box{
     position: relative;
     width: calc(400px - 30px);
     height: calc(300px - 30px);
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
     float: left;
     margin:15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid black;
+    
 }
 
 .flex-container {

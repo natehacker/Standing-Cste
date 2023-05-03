@@ -130,6 +130,30 @@ h1{
     width: 100%;
     
   }
+  .container_three{
+    width: 90%;
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box1{
+    width: 500%;
+    height: 250px;
+    background: rgb(255, 255, 254);
+ margin: 40px;
+  transition: 1s;
+
+border: 3px solid rgb(0, 0, 0);
+
+}
+.box1:hover{
+    transform: scale(1.1);
+    background: #ffffff;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+}
   @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}

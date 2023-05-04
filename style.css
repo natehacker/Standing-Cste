@@ -129,6 +129,7 @@ h2 {
    flex-direction: row;
   justify-content: center;
   margin-left: 0px; 
+  margin-bottom: 10%;
 } 
 .box1 {
   width: 250px;
@@ -150,7 +151,7 @@ h2 {
   height: 250px;
   margin-top: 00px;
   margin-bottom: 0px;
- margin-top: 60px;
+ /* margin-top: 60px; */
   margin-left: 70px;
   display: inline-block;
 

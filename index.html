@@ -30,7 +30,7 @@
         </div>
             <div class="nate">
                 <div class="box1" style="text-align:bottom;">
-                   <img src="https://www.cste.org/resource/resmgr/gn.png" alt="img" width="80%" style="margin-left: 25px; margin-top: 25px; border-radius: 10px; border: 2px solid black;">
+                   <button class="accordion2"><img src="https://www.cste.org/resource/resmgr/gn.png" alt="img" width="80%" style="margin-left: 25px; margin-top: 25px; border-radius: 10px; border: 2px solid black;"></button>
                 </div>
             </div>
                 <div class="nate">
@@ -41,8 +41,21 @@
             </div>
         </div>
         <div class="panel" id="panel1">
-          <p style="margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   <h1 style="color: black; text-align: left; margin-top: 20px;" >Finance and Audit Committee</h1>
+          <p style="margin-bottom:3%; text-align: left;">The Finance and Audit (F&A) Standing Committee oversees the financial activities of CSTE, including engaging an independent, certified public accounting firm and ensures that internal controls are in place to protect assets. Membership of the F&A Committee is comprised of at least three Executive Board members and an independent consultant</p>
+          <strong style="margin-top: 10px; margin:right5%;"> Chair: Kathryn Turner, PhD, MPH; CSTE Secretary-Treasurer; Deputy State Epidemiologist and Chief, Bureau of Communicable Disease Prevention, Idaho
+          </strong>
+          <p>Under the P&P Standing Committee, the bylaws support the formation of Ad Hoc Committees, which include Steering Committees. Subcommittees are formed <br>under each Steering Committee. The image below highlights how CSTE’s standing committees will function in the updated governance structure.<br>
+          </p>
         </div>
+        <div class="panel" id="panel2">
+          <h1 style="color: black; text-align: left; margin-top: 20px;" >Finance and Audit Committee</h1>
+                 <p style="margin-bottom:3%; text-align: left;">The Finance and Audit (F&A) Standing Committee oversees the financial activities of CSTE, including engaging an independent, certified public accounting firm and ensures that internal controls are in place to protect assets. Membership of the F&A Committee is comprised of at least three Executive Board members and an independent consultant</p>
+                 <strong style="margin-top: 10px; margin:right5%;"> Chair: Kathryn Turner, PhD, MPH; CSTE Secretary-Treasurer; Deputy State Epidemiologist and Chief, Bureau of Communicable Disease Prevention, Idaho
+                 </strong>
+                 <p>Under the P&P Standing Committee, the bylaws support the formation of Ad Hoc Committees, which include Steering Committees. Subcommittees are formed <br>under each Steering Committee. The image below highlights how CSTE’s standing committees will function in the updated governance structure.<br>
+                 </p>
+               </div>
        
        </div>
        
@@ -109,6 +122,20 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = document.getElementById("panel1");
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+var acc = document.getElementsByClassName("accordion2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = document.getElementById("panel2");
     if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {
